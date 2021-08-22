@@ -24,8 +24,12 @@ mlagents-learn "<yaml경로>" --run-id <folder_name>
 ```
 
 ### cudart64_110.dll 에러 대처
+```
 https://developer.nvidia.com/cuda-11.0-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exenetwork
-에서 다운 받아 설치(하단의 옵션 2개는 제외하고 설치)
+```
+다운 받아 설치(하단의 옵션 2개는 제외하고 설치)
 
 ### 가상환경 삭제 
+```
 conda remove --name <name> --all
+```
